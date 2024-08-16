@@ -1,0 +1,1 @@
+Place images you want to process in this folder or select a folder using the -s/--source attribute..
