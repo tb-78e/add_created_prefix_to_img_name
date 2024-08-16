@@ -20,8 +20,8 @@ This tool processes images by adding a creation date prefix to their filenames a
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/yourusername/image-renaming-tool.git
-    cd image-renaming-tool
+    https://github.com/tb-78e/add_created_prefix_to_img_name.git
+    cd add_created_prefix_to_img_name
     ```
 
 2. **No additional installation is required** as the script relies on standard Python libraries.
@@ -33,7 +33,7 @@ This tool processes images by adding a creation date prefix to their filenames a
 Run the script with the following command:
 
 ```bash
-python image_processor.py -s /path/to/source/folder [-d /path/to/destination/folder] 
+python main.py -s /path/to/source/folder [-d /path/to/destination/folder] 
 ```
 
 ## Command-Line Options
@@ -46,14 +46,14 @@ python image_processor.py -s /path/to/source/folder [-d /path/to/destination/fol
 ### Process Images with Default Destination
 
 ```bash
-python image_processor.py -s /path/to/source/folder
+python main.py -s /path/to/source/folder
 ```
 
 This will use /path/to/source/folder as the source and create or use a processed_images folder inside the source folder as the destination.
 
 ### Process Images with Custom Destination
 ```bash
-python image_processor.py -s /path/to/source/folder -d /path/to/destination/folder
+python main.py -s /path/to/source/folder -d /path/to/destination/folder
 ```
 
 This will use /path/to/source/folder as the source and /path/to/destination/folder as the destination.
