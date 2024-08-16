@@ -19,10 +19,10 @@ This tool processes images by adding a creation date prefix to their filenames a
 
 1. **Clone the Repository**:
 
-    ```bash
-    https://github.com/tb-78e/add_created_prefix_to_img_name.git
-    cd add_created_prefix_to_img_name
-    ```
+```bash
+git clone https://github.com/tb-78e/add_created_prefix_to_img_name.git
+cd add_created_prefix_to_img_name
+```
 
 2. **No additional installation is required** as the script relies on standard Python libraries.
 
